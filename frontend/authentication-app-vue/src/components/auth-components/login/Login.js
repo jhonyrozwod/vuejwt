@@ -9,6 +9,8 @@ import swal from 'sweetalert';
 import { required } from 'vuelidate/lib/validators';
 import LoginService from '@/services/LoginService';
 
+const logo = require('@/assets/logo.png');
+
 export default {
   name: 'LoginComponent',
   data() {
@@ -18,8 +20,10 @@ export default {
         password: null,
       },
       isSubmitted: false,
+      caminhoDaImagem: logo,
     };
   },
+
   validations: {
     loginForm: {
       email: { required },

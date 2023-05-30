@@ -7,6 +7,12 @@
           style="margin-top: 70px; height: auto; padding-top: 100px !important"
           v-on:submit.prevent="loginSubmitUserForm()"
         >
+        <div >
+        <img :src="caminhoDaImagem" alt="Imagem" style="border: 5px solid black;">
+        <br>
+        <br>
+        <hr>
+      </div>
           <!--INÍCIO BLOCO: E-mail-->
           <div class="form-group">
             <input

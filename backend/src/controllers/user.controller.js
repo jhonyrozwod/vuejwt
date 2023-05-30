@@ -1,15 +1,8 @@
-/**
- * Arquivo: src/controllers/user.controller.js
- * Descrição: arquivo responsável pelo CRUD da classe: 'User'
- * Data: 01/01/2020
- * Author Glaucia Lemos <Twitter: @glaucia_lemos86>
- */
-
 const User = require("../models/user.model");
 
-// ==> Usando conceito de Async e Await
+//Async e Await
 
-// ==> Método responsável por Criar um novo 'User':
+//  Método  Criar um novo User:
 exports.registerNewUser = async (req, res) => {
   try {
     // => Antes vamos fazer uma verificação se o usuário já possui algum e-mail já cadastrado:

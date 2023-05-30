@@ -2,7 +2,7 @@
   <div>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
-        <a class="navbar-brand">JWT + Node + Vue</a>
+        <a class="navbar-brand">BLOG DO JHONY</a>
 
         <div
           class="collapse navbar-collapse justify-content-end"
@@ -17,6 +17,7 @@
       </div>
     </nav>
     <section>
+
       <div class="container mt-5">
         <div class="row">
           <div class="col-md-12">

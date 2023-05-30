@@ -1,10 +1,3 @@
-/**
- * file: src/routes/index.js
- * description: arquivo responsável pela rota default da aplicação
- * data: 01/01/2021
- * author: Glaucia Lemos <Twitter: @glaucia_lemos86>
- */
-
 const express = require('express');
 
 const router = express.Router();

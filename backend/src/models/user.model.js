@@ -1,10 +1,3 @@
-/**
- * file: src/models/user.model.js
- * description: arquivo responsavel pelo modelo da classe 'User'
- * data: 01/01/2021
- * author: Glaucia Lemos <Twitter: @glaucia_lemos86>
- */
-
 const mongoose = require('mongoose');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
@@ -52,7 +45,7 @@ userSchema.statics.findByCredentials = async (email, password) => {
   }
   const isPasswordMatch = await bcrypt.compare(password, user.password);
   if (!isPasswordMatch) {
-    throw new Error({ error: 'Login inválido!' });
+    throw new Error({ error: 'senha inválida!' });
   }
   return user;
 };
